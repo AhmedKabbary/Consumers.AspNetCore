@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FB68C46C-B730-4E24-8201-BE93C2FB457F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{00049D4B-016C-4513-B9A7-6613EA5CA499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumers.AspNetCore", "src\Consumers.AspNetCore\Consumers.AspNetCore.csproj", "{C6092C88-7376-46D0-9CC1-14C6DE535C4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{F5FD8A25-2255-4666-A413-744F7C75E448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce", "samples\Ecommerce\Ecommerce.csproj", "{D8C65814-C24B-40E4-8ABE-86C577691D23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "samples\Library\Library.csproj", "{D349111B-4E3E-4C29-8A9E-4CAC37D65993}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C6092C88-7376-46D0-9CC1-14C6DE535C4B} = {FB68C46C-B730-4E24-8201-BE93C2FB457F}
+		{D8C65814-C24B-40E4-8ABE-86C577691D23} = {F5FD8A25-2255-4666-A413-744F7C75E448}
+		{D349111B-4E3E-4C29-8A9E-4CAC37D65993} = {F5FD8A25-2255-4666-A413-744F7C75E448}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6092C88-7376-46D0-9CC1-14C6DE535C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6092C88-7376-46D0-9CC1-14C6DE535C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6092C88-7376-46D0-9CC1-14C6DE535C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6092C88-7376-46D0-9CC1-14C6DE535C4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8C65814-C24B-40E4-8ABE-86C577691D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C65814-C24B-40E4-8ABE-86C577691D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C65814-C24B-40E4-8ABE-86C577691D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C65814-C24B-40E4-8ABE-86C577691D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D349111B-4E3E-4C29-8A9E-4CAC37D65993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D349111B-4E3E-4C29-8A9E-4CAC37D65993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D349111B-4E3E-4C29-8A9E-4CAC37D65993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D349111B-4E3E-4C29-8A9E-4CAC37D65993}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
