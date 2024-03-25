@@ -1,0 +1,13 @@
+@Library_HostAddress = http://localhost:5000
+
+GET {{Library_HostAddress}}/api/books
+Accept: application/json
+X-Consumer: user
+
+###
+
+GET {{Library_HostAddress}}/api/books
+Accept: application/json
+X-Consumer: librarian
+
+###
