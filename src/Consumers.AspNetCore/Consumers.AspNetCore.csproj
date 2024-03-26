@@ -12,6 +12,7 @@
         <Version>1.0.0-alpha</Version>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/AhmedKabbary/Consumers.AspNetCore</RepositoryUrl>
         <Description>Route ASP.NET Core Web API endpoints based on consumer type</Description>
     </PropertyGroup>
 
